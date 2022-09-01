@@ -229,7 +229,17 @@ pnpm install
 
 
 
-###### 
+###### 5. 其它
 
+进入项目根目录
 
+| 启动     | 启动方式            |
+| -------- | ------------------- |
+| 安装     | pnpm install        |
+| 启动app1 | pnpm run dev:app1   |
+| 启动app2 | pnpm run dev:app2   |
+| 启动app3 | pnpm run dev:app3   |
+| 打包app1 | pnpm run build:app1 |
+| 打包app2 | pnpm run build:app2 |
+| 打包app3 | pnpm run build:app3 |
 
