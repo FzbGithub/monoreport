@@ -1,0 +1,27 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev:app1": "vite packages/app1",
+    "dev:app2": "vite packages/app2",
+    "dev:app3": "vite packages/app3",
+    "build:app1": "cd packages/app1 && npm run build",
+    "build:app2": "cd packages/app2 && npm run build",
+    "build:app3": "cd packages/app3 && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7",
+    "vue-tsc": "^0.39.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
